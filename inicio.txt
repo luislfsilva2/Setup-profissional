@@ -1,6 +1,9 @@
 Comandos:
 pwd ==> localiza qual pasta estou, caminho do diretório
 ls ==> listar todos os itens da pasta
+cd .. ==> volto a pasta raiz onde meu projeto está
+cd "nome da pasta" ==> entro novamente na pasta onde está localizado meu projeto
+mkdir "nome da pasta" ==> crio uma nova pasta
 clear ==> limpa a tela
 git init ==> Iniciar o git
 git status == > verifica se houve alteração no arquivo
@@ -10,3 +13,9 @@ git commit -m "text" ==> após adicionado a área de stage, o arquivo está pron
 git log ==> traz todo rastreamento, versões
 git restore --staged . ==> retira todos os arquivos da área da stage
 git restore -- staged "nome do arquivo" ==> retira apenas o arquivo citado da área da stage
+git reset --hard "código da versão" ==> Restaura/volta a versão desejada (não exclui a versão, apenas deixa de mostrar) e se eu dou comando novamente com código da versão, ela reaparece
+git clone "copia do endereço da URL" ==> copia um arquivo criado no ambiente remoto para ambiente local
+git pull ==> trazer a versão atualizada entre remoto e local
+git config --global user.name "luislfsilva2" ==> adiciona as credenciais de usuário da conta remoto
+git config --global user.email "luislfsilva2@gmail.com" ==> adiciona as credenciais de email da conta remoto
+git remote -v ==> Mostra onde você está conectado
