@@ -1,0 +1,14 @@
+Olá mundo!
+
+Comandos:
+pwd ==> localiza qual pasta estou, caminho do diretório
+ls ==> listar todos os itens da pasta
+clear ==> limpa a tela
+git init ==> Iniciar o git
+git status == > verifica se houve alteração no arquivo
+git add "nome do arquivo" -- momento que é adicionado a área de stage
+git add . ==> adicionado todos os arquivos da pasta na área da stage
+git commit -m "text" ==> após adicionado a área de stage, o arquivo está pronto para ser salvo. Esta etapa salva/cria realmente de fato. ( -m adiciona uma mensagem  "texto"
+git log ==> traz todo rastreamento, versões
+git restore --staged . ==> retira todos os arquivos da área da stage
+git restore -- staged "nome do arquivo" ==> retira apenas o arquivo citado da área da stage
