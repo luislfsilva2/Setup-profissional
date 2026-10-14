@@ -13,9 +13,11 @@ git commit -m "text" ==> após adicionado a área de stage, o arquivo está pron
 git log ==> traz todo rastreamento, versões
 git restore --staged . ==> retira todos os arquivos da área da stage
 git restore -- staged "nome do arquivo" ==> retira apenas o arquivo citado da área da stage
+git restore ==> tiro o arquivo da área de alteração e altera o arquivo como se não tivesse sido alterado, descarta as atualizações
 git reset --hard "código da versão" ==> Restaura/volta a versão desejada (não exclui a versão, apenas deixa de mostrar) e se eu dou comando novamente com código da versão, ela reaparece
 git clone "copia do endereço da URL" ==> copia um arquivo criado no ambiente remoto para ambiente local
-git pull ==> trazer a versão atualizada entre remoto e local
+git pull ==> trazer a versão atualizada do remoto para local
+git push == > trazer a versão atualizada do local para remoto
 git config --global user.name "luislfsilva2" ==> adiciona as credenciais de usuário da conta remoto
 git config --global user.email "luislfsilva2@gmail.com" ==> adiciona as credenciais de email da conta remoto
 git remote -v ==> Mostra onde você está conectado
